@@ -39,3 +39,11 @@ p {
     border-radius: 4px;
     line-height: 27px;
 }
+.button:hover{
+    background: #6058fa;
+    padding: 18px 30px;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    line-height: 27px;
+}
