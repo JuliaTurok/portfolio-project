@@ -79,6 +79,50 @@ h3 {
 .project {
   margin-top: 8.0625rem;
 }
+.box-h3{
+  font-size: 48px;
+  padding-left: 119px;
+  padding-top: 28px;
+  padding-bottom: 13px;
+  margin-bottom: 0;
+}
+.margin-p{
+  margin-left: 119px;
+ margin-bottom: 42px;
+ font-size: 18px;
+}
+.margin-t{
+ margin-top: 71px;
+}
+.box{
+  background: var(--secondary-color);
+  margin-top: 8.25rem;
+  box-sizing: border-box;
+  margin-bottom: 92px;
+  border-radius: 10px;
+  width: 72.5rem;
+  margin-left: 67px;
+}
+.mail-link{
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  font-family: var(--heading-font-family);
+}
+.network{
+  width: 40px;
+  margin-left: 33px;
+}
+.network-facebook{
+  width:40px;
+}
+.contact-info{
+  text-align: center;
+  margin-bottom: 7.625rem;
+}
+.bg-color{
+  background: var(--secondary-color);
+}
 @media (max-width: 960px) {
   .project {
     margin: 0;
@@ -108,8 +152,43 @@ h3 {
      font-size: 14px;
     padding: 12px 18px;
   }
+   .button-display{
+    margin-top: 71px;
+  }
   .hero {
     padding-top: 138px;
     padding-bottom: 190px;
+  }
+  .box{width:100%;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .box-h3 {
+    font-size: 28px;
+    padding-left: 0;
+    text-align: center;
+  }
+  .margin-p{
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 15px;
+  }
+ 
+  .margin-t{
+    margin-top: 0;
+    margin-bottom: 32px;
+  }
+  .mail-link{
+  font-size: 18px;
+
+margin-top: 32px;}
+}
+@media (max-width: 768px){
+   .button-display{
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 21px;
   }
 }
