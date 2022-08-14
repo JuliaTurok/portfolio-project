@@ -33,26 +33,26 @@ h2 {
 .about-box{
   margin: 0 auto;
 }
-.about-section{
+.content-container{
  padding-top: 2.850rem;
   padding-left: 7.375rem;
 }
-.about-section h1{
+.content-container h1{
   font-size: 64px;
   margin-top: 178px;
   color: var(--primary-color);
 }
-.about-section h2{
+.content-container h2{
   font-size:18px;
   font-weight: bold;
    color: #425e95;
 }
-.about-section p{
+.content-container p{
   font-size: 16px;
   line-height: 30px;
   color: var(--primary-color);
 }
-.about-section .button{
+.content-container .button{
   margin-top: 1.5rem;
 }
 .hero p {
@@ -179,11 +179,31 @@ background: #486295;
   border-radius: 4px;
   margin-left: 12rem;
 }
-.about-footer .box{
+footer .box{
   width: 68rem;
   margin: 0 auto;
   margin-top: 12.75rem;
     margin-bottom: 92px;
+}
+
+.content h4{
+  font-size: 24px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-top: 16px;
+}
+.content p{
+  font-size: 14px;
+  font-family: var(--heading-font-family);
+}
+.radio-app{
+  width:35rem;
+  height: 35rem;
+}
+.weather-app{
+   width: 44.188rem;
+  height: 35rem;
 }
 @media (max-width: 960px) {
   .project {
