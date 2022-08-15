@@ -204,7 +204,7 @@ h3 {
 }
 .logo {
   width: 150px;
-  background: var(--secondary-color);
+  background:  #f9f7fe;
   padding: 15px;
   padding-right: 30px;
   border-radius: 10px;
