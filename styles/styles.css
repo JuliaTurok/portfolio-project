@@ -30,12 +30,10 @@ h2 {
 .color{
    color: var(--primary-color);
 }
-.about-box{
-  margin: 0 auto;
-}
+
 .content-container{
  padding-top: 2.850rem;
-  padding-left: 7.375rem;
+  
 }
 .content-container h1{
   font-size: 64px;
@@ -120,9 +118,8 @@ h3 {
   padding-top: 28px;
   padding-bottom: 13px;
   margin-bottom: 0;
-
-  
 }
+
 .margin-p{
   margin-left: 119px;
  margin-bottom: 42px;
@@ -142,6 +139,14 @@ h3 {
     margin-bottom: 92px;
   border-radius: 10px;
  
+}
+
+.box-homepage{
+   background: var(--secondary-color);
+    margin: 0 auto;
+    margin-top: 12.75rem;
+    margin-bottom: 92px;
+  border-radius: 10px;
 }
 .mail-link{
   text-decoration: none;
@@ -178,12 +183,6 @@ background: #486295;
   margin-top: 8.25rem;
   border-radius: 4px;
   margin-left: 12rem;
-}
-footer .box{
-  width: 68rem;
-  margin: 0 auto;
-  margin-top: 12.75rem;
-    margin-bottom: 92px;
 }
 
 .content h4{
@@ -236,6 +235,22 @@ margin-left: 4rem;
 .nav-right{
   margin-right: 8.688rem;
 }
+footer .social-links a{
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+transition: all 150ms ease-in-out;}
+  footer .social-links a:hover{
+    color: var(--secondary-color);
+    background: var(--primary-color);
+  }
+.social-links{
+  margin-top: 40px;
+}
+
 @media (max-width: 960px) {
   .project, .project-weather-app {
     margin: 0;
